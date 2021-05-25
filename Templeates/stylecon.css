@@ -1,0 +1,112 @@
+body{
+    text-align: center;
+    background-image: url("../Imagenes/fondo4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.box{
+  box-shadow: 5px 10px rgba(131, 130, 207, .5);
+}
+
+.boton{
+  color: #318aac !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: rgba(0,0,0,0);
+  border: 2px solid;
+  border-color: #318aac;
+  position: relative;
+}
+
+.boton:hover{
+  background: #318aac;
+  color: #fff !important;
+}
+
+ul, ol{
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+}
+ul.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+ul.nav li {
+    position: relative;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+ul.nav li:hover{
+    background-color: hsla(340, 95%, 50%, 0.571);
+}
+ul.nav ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+}
+ul.nav ul li {
+    float: none;
+    width: 200px;
+}
+ul.nav ul a{
+    line-height: 120%;
+    padding: 10px 15px;
+}
+ul.nav li:hover > ul{
+    display: block;
+}
+
+/* Footer */
+
+footer{
+	background:#2C3E50;
+	padding: 25px 0 20px 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	margin: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #ccc; 
+}
+
+.contenido-footer{
+	text-align: center;
+}
+
+.contenido-footer h4{
+	color: white;
+	border-bottom: 3px solid #af20d3;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.contenido-footer p{
+	color: #ccc;
+}
+
+.final{
+	text-align: center;
+	font-size: 24px;
+	margin: 20px 0 0 0;
+	color: #9e9797
+}
